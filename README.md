@@ -2,7 +2,7 @@
 
 Java `synchronized` keyword, but for javascript.
 
-If an asynchronous function is decorated with `synchronized`, it delays calls to this function until all the previous calls are finished. This is true for any function that returns a promise.
+If an asynchronous function is decorated with `synchronized`, it suspends calls to this function until all the previous calls are finished. This is true for any function that returns a promise.
 
 Usage:
 
