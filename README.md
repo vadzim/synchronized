@@ -45,5 +45,5 @@ import {synchronizedMethod} from 'synchronized'
 
 function MyClass(...) {...}
 
-MyClass.prototype = synchronizedMethod(function(a, b, c) {...})
+MyClass.prototype.method = synchronizedMethod(function(a, b, c) {...})
 ```
