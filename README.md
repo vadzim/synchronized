@@ -40,7 +40,7 @@ class MyClass {
 
 If you want get decorator behavior but with a function call, you can use `synchronizedMethod` function.
 
-```
+```javascript
 import {synchronizedMethod} from 'synchronized'
 
 function MyClass(...) {...}
