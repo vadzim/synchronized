@@ -8,3 +8,10 @@
 [lints]
 
 [options]
+esproposal.class_instance_fields=enable
+esproposal.class_static_fields=enable
+esproposal.decorators=ignore
+esproposal.export_star_as=enable
+experimental.const_params=true
+module.use_strict=true
+unsafe.enable_getters_and_setters=true
