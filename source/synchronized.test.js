@@ -12,8 +12,8 @@ test("type", async () => {
 		return x.length
 	})
 	// $FlowBug
-	2+2
-	1 * await worker('', true)
+	2 + 2
+	1 * (await worker("", true))
 })
 
 test("standalone", async () => {

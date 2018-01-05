@@ -35,7 +35,7 @@ export function synchronizedMethod<F: Function>(method: F): F {
 	}: any)
 }
 
-export const synchronized: typeof synchronizedStatic = (function (target, name, descriptor) {
+export const synchronized: typeof synchronizedStatic = (function(target, name, descriptor) {
 	if (name === undefined) {
 		return synchronizedStatic((target: any))
 	} else {
