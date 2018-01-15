@@ -7,7 +7,7 @@ If an asynchronous function is decorated with `synchronized`, it suspends calls 
 Usage:
 
 ```javascript
-import synchronized from 'synchronized'
+import {synchronized} from '@vadzim/synchronized'
 
 const asyncFunction = synchronized(async (a, b, c) => {
 	...	
@@ -22,7 +22,7 @@ const promiseFunction = synchronized((a, b, c) => {
 If used as a decorator, it makes method to be `synchronized` only within instance of a class. That means that executing method once at a time is restricted only for one instance, other instances can have their own running methods at that moment.
 
 ```javascript
-import synchronized from 'synchronized'
+import {synchronized} from '@vadzim/synchronized'
 
 class MyClass {
 	@synchronized
@@ -41,7 +41,7 @@ class MyClass {
 If you want to get the decorator behavior but with a function call, you can use `synchronizedMethod` function.
 
 ```javascript
-import {synchronizedMethod} from 'synchronized'
+import {synchronizedMethod} from '@vadzim/synchronized'
 
 function MyClass(...) {...}
 
