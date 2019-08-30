@@ -141,6 +141,10 @@
   dependencies:
     "@babel/types" "7.0.0-beta.37"
 
+"@babel/helper-plugin-utils@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
+
 "@babel/helper-regex@7.0.0-beta.37":
   version "7.0.0-beta.37"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0-beta.37.tgz#5bd439b6c22817c1afe4a9f6442c65ca79cfcef1"
@@ -216,10 +220,11 @@
     "@babel/plugin-syntax-decorators" "7.0.0-beta.37"
 
 "@babel/plugin-proposal-export-default-from@^7.0.0-beta.37":
-  version "7.0.0-beta.37"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.0.0-beta.37.tgz#a28b1754f08cb71dddce4a13b61440afd2e5a07f"
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.5.2.tgz#2c0ac2dcc36e3b2443fead2c3c5fc796fb1b5145"
   dependencies:
-    "@babel/plugin-syntax-export-default-from" "7.0.0-beta.37"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-export-default-from" "^7.2.0"
 
 "@babel/plugin-proposal-export-namespace-from@^7.0.0-beta.37":
   version "7.0.0-beta.37"
@@ -288,9 +293,11 @@
   version "7.0.0-beta.37"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.0.0-beta.37.tgz#df07fa3c6930d68c02910592c07cd9c8c9910715"
 
-"@babel/plugin-syntax-export-default-from@7.0.0-beta.37":
-  version "7.0.0-beta.37"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.0.0-beta.37.tgz#8126cbe1cf1ab0a590d981805d64c65e4374dcf6"
+"@babel/plugin-syntax-export-default-from@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.2.0.tgz#edd83b7adc2e0d059e2467ca96c650ab6d2f3820"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.37":
   version "7.0.0-beta.37"
