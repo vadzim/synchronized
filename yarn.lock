@@ -141,6 +141,10 @@
   dependencies:
     "@babel/types" "7.0.0-beta.37"
 
+"@babel/helper-plugin-utils@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
+
 "@babel/helper-regex@7.0.0-beta.37":
   version "7.0.0-beta.37"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0-beta.37.tgz#5bd439b6c22817c1afe4a9f6442c65ca79cfcef1"
@@ -239,11 +243,18 @@
   dependencies:
     "@babel/plugin-syntax-numeric-separator" "7.0.0-beta.37"
 
-"@babel/plugin-proposal-object-rest-spread@7.0.0-beta.37", "@babel/plugin-proposal-object-rest-spread@^7.0.0-beta.37":
+"@babel/plugin-proposal-object-rest-spread@7.0.0-beta.37":
   version "7.0.0-beta.37"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.0.0-beta.37.tgz#627d5c17f08c8c1878ff9dd5b46cbe1868ca2305"
   dependencies:
     "@babel/plugin-syntax-object-rest-spread" "7.0.0-beta.37"
+
+"@babel/plugin-proposal-object-rest-spread@^7.0.0-beta.37":
+  version "7.5.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.5.5.tgz#61939744f71ba76a3ae46b5eea18a54c16d22e58"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-object-rest-spread" "^7.2.0"
 
 "@babel/plugin-proposal-optional-catch-binding@7.0.0-beta.37":
   version "7.0.0-beta.37"
@@ -311,6 +322,12 @@
 "@babel/plugin-syntax-object-rest-spread@7.0.0-beta.37":
   version "7.0.0-beta.37"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.0.0-beta.37.tgz#52a6cac2234ff859e21a8ced4d794bbe43210561"
+
+"@babel/plugin-syntax-object-rest-spread@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.2.0.tgz#3b7a3e733510c57e820b9142a6579ac8b0dfad2e"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-syntax-optional-catch-binding@7.0.0-beta.37":
   version "7.0.0-beta.37"
