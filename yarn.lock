@@ -141,6 +141,10 @@
   dependencies:
     "@babel/types" "7.0.0-beta.37"
 
+"@babel/helper-plugin-utils@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
+
 "@babel/helper-regex@7.0.0-beta.37":
   version "7.0.0-beta.37"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0-beta.37.tgz#5bd439b6c22817c1afe4a9f6442c65ca79cfcef1"
@@ -234,10 +238,11 @@
     "@babel/plugin-syntax-nullish-coalescing-operator" "7.0.0-beta.37"
 
 "@babel/plugin-proposal-numeric-separator@^7.0.0-beta.37":
-  version "7.0.0-beta.37"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.0.0-beta.37.tgz#53cadbbdf34bac5b2920920b22168098fcdc05b8"
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.7.4.tgz#7819a17445f4197bb9575e5750ed349776da858a"
   dependencies:
-    "@babel/plugin-syntax-numeric-separator" "7.0.0-beta.37"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-numeric-separator" "^7.7.4"
 
 "@babel/plugin-proposal-object-rest-spread@7.0.0-beta.37", "@babel/plugin-proposal-object-rest-spread@^7.0.0-beta.37":
   version "7.0.0-beta.37"
@@ -304,9 +309,11 @@
   version "7.0.0-beta.37"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.0.0-beta.37.tgz#b30dd53061fd431b7ebff833d8ca00b1fbc50984"
 
-"@babel/plugin-syntax-numeric-separator@7.0.0-beta.37":
-  version "7.0.0-beta.37"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.0.0-beta.37.tgz#45cf626436e0938a087ca7931ef32ad8a49b1815"
+"@babel/plugin-syntax-numeric-separator@^7.7.4":
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.7.4.tgz#39818f8042a09d4c6248d85d82555369da4da5c4"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-syntax-object-rest-spread@7.0.0-beta.37":
   version "7.0.0-beta.37"
